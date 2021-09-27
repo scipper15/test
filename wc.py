@@ -11,6 +11,9 @@ try:
 
     # allow for directory-names as input arguments - in this case,
     # the word count is to be applied to all text-files of that directory
+
+    # Add the capability to support command-line options to wc.py (e.g. the
+    # option '-i' could be used to support case-insensitivity for counting words)
     print('Number of words (excluding spaces):', len(string_argument.split()))
     print('Number of chars (including spaces):', len(string_argument))
 except IndexError:
